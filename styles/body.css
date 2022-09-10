@@ -53,9 +53,10 @@
 .mimi{
     width: 390px;
 }
-.right{
-    margin-top: 30px;
-    margin-left: 20px;
+.right {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
 }
 .left{
     margin-left: 20px;
@@ -65,12 +66,12 @@
     padding: 5px;
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    width: 390px;
 }
 .footer1 {
     display: flex;
     height: 20px;
-    width: 520px;
+    width: 400px;
     margin-bottom: 5px;
 }
 .footer1 input{
