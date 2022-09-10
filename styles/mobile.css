@@ -5,6 +5,9 @@
         height: 800px;
         width: 435px;
     }
+    .left{
+        margin: 0%;
+    }
     .right{
         border: 1px solid black;
         margin: 10px;
