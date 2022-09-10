@@ -4,4 +4,6 @@
 }
 button{
     cursor: pointer;
+    background-color: aqua;
+    color: black;
 }
