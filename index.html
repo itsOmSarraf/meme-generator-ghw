@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Silkscreen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/body.css" />
     <link rel="stylesheet" href="styles/mobile.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
     <link
       rel="icon"
       type="image/x-icon"
@@ -16,18 +19,45 @@
     <title>Meme Generator</title>
   </head>
   <body>
-    <header>
-      <p>meme-generator</p>
-      <img
-        src="assets/search_FILL0_wght400_GRAD0_opsz48.svg"
-        alt="search-icon"
-      />
-    </header>
-    <body>
+      <nav id="navbar" class="">
+        <div class="nav-wrapper">
+          <!-- Navbar Logo -->
+          <div class="logo">
+            <!-- Logo Placeholder for Inlustration -->
+            <a href="#home">Meme Generator</a>
+            <!-- <a href="#home"><i class="fa fa-coffee"></i> Acoderr</a> -->
+          </div>
+      
+          <!-- Navbar Links -->
+          <ul id="menu">
+            <li><a href="#home">Home</a></li><!--
+         --><li><a href="#services">Services</a></li><!--
+         --><li><a href="#about">About</a></li><!--
+         --><li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Menu Icon -->
+      <div class="menuIcon">
+        <span class="icon icon-bars"></span>
+        <span class="icon icon-bars overlay"></span>
+      </div>
+
+      <div class="overlay-menu">
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </div>
+   
+    <>
       <div class="head">
         <p>The best Meme Generator you will ever find.Easy to use</p>
       </div>
-      <div class="main">
+      <div class="main" style="margin-top: 90px;align-items: center;">
         <div class="left">
           <div class="main-header">
             <div class="head">
@@ -120,6 +150,7 @@
           </div>
         </div>
       </div>
-    </body>
+  
   </body>
-</html>
+  <script src="./js/script.js"></script>
+  </html>
