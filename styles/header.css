@@ -1,0 +1,15 @@
+header{
+    background-color: grey;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+header img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    
+}
+header p{
+    font-size: 30px;
+}
