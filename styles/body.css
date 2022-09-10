@@ -8,3 +8,10 @@
     width: 20px;
     height: 20px;
 }
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer1{
+    
+}
