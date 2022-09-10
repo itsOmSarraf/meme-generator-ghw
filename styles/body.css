@@ -1,0 +1,10 @@
+.main-header{
+    display: flex;
+}
+.main-header button{
+    padding: 5px;
+}
+.rotate{
+    width: 20px;
+    height: 20px;
+}
