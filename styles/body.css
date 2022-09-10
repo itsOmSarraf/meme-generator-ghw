@@ -13,5 +13,10 @@
     justify-content: space-between;
 }
 .footer1{
-    
+    display: flex;
+    height: 20px;
+}
+.settings{
+    width: 15px;
+    height: 15px;
 }
