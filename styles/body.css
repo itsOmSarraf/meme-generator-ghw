@@ -1,6 +1,4 @@
-
 *{
-	
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -9,7 +7,6 @@
 	list-style: none;
 
 }
-
 .head{
     margin-top: 5px;
     margin: auto;
@@ -37,8 +34,8 @@
     height: 20px;
 }
 .settings{
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
 }
 .black , .white{
     width:20px;
@@ -49,6 +46,7 @@
 }
 .white{
     background-color: white;
+    border: 1px solid black;
 }
 .mimi{
     width: 390px;
@@ -76,6 +74,7 @@
 }
 .footer1 input{
     width: 300px;
+    background-color: rgb(219, 219, 219);
 }
 .mimis img{
     width: 50px;
