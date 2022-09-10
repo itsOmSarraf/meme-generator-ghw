@@ -1,0 +1,13 @@
+@media only screen and (max-width: 700px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 435px;
+    }
+    .right{
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+    }
+}
