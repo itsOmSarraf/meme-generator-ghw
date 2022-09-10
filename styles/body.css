@@ -50,6 +50,9 @@
 }
 .mimi{
     width: 390px;
+    border: 5px solid;
+    padding: 3px;
+    border-radius: 2px;
 }
 .right {
     margin: 10px;
@@ -82,6 +85,9 @@
 .footer2{
     width: 400px;
     margin-bottom: 10px;
+}
+p{
+    font-weight: 600;
 }
 .footer3{
     display: flex;
