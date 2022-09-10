@@ -1,21 +1,24 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
-	outline: none;
-	list-style: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
     color: #FFFFFF;
 }
-.head{
+
+.head {
     margin-top: 5px;
     margin: auto;
     margin-left: 45%;
 }
-.main{
+
+.main {
     display: flex;
-    flex-direction: row;  
-    width: 850px;
+    flex-direction: row;
+    width: 810px;
+    height: 370px;
     background-color: #2700D6;
     border-radius: 5px;
     margin: auto;
@@ -23,90 +26,114 @@
     box-shadow: 28px 17px 38px rgba(0, 0, 0, 0.5);
 }
 
-.rotate{
+.rotate {
     width: 20px;
     height: 20px;
 }
-.settings{
+
+.settings {
     width: 20px;
     height: 20px;
 }
-.black , .white{
-    width:20px;
+
+.black,
+.white {
+    width: 20px;
     height: 20px;
 }
-.black{
+
+.black {
     background-color: black;
 }
-.white{
+
+.white {
     background-color: white;
     border: 1px solid black;
 }
-.mimi{
+
+.mimi {
     width: 390px;
     border: 5px solid;
     padding: 3px;
     border-radius: 2px;
 }
+
 .right {
     margin: 10px;
     padding: 10px;
 }
-.left{
+
+.left {
     margin-bottom: 10px;
 }
+
 .main-footer {
     padding: 5px;
     display: flex;
     justify-content: space-between;
     width: 355px;
 }
+
 .footer1 {
     display: flex;
     height: 20px;
     width: 400px;
     margin-bottom: 5px;
 }
-.footer1 input{
+
+.footer1 input {
     width: 300px;
     background-color: rgb(219, 219, 219);
 }
-.mimis img{
+
+.mimis img {
     width: 50px;
     height: 50px;
 }
-.mimis{
+
+.mimis {
     width: 355px;
 }
-.footer2{
-    width: 400px;
+
+.footer2 {
+    width: 340px;
     margin-bottom: 10px;
 }
+]
 p{
     font-weight: 600;
 }
-.footer3{
+
+.footer3 {
+
     display: flex;
     justify-content: space-between;
     width: 355px;
     margin-top: 10px;
 }
-.generate{
+
+.generate {
     padding: 10px;
     background-color: aqua;
 }
-.reset{
+
+.reset {
     padding: 10px;
     background-color: aqua;
 }
-.upload,.btn-pop,.inputmeme{
+
+.upload,
+.btn-pop,
+.inputmeme {
     padding: 10px;
     border-radius: 5px;
 }
-.btn-my{
+
+.btn-my {
     padding: 10px 7px;
     border-radius: 5px;
 }
-.mimify{
+
+.mimify {
     margin-top: 10px;
 }
