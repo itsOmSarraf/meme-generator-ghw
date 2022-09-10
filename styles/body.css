@@ -1,6 +1,9 @@
 .main{
     display: flex;
     flex-direction: row;  
+    width: 800px;
+    background-color: yellow;
+    margin: auto;
 }
 .main-header{
     display: flex;
@@ -36,4 +39,7 @@
 }
 .mimi{
     width: 390px;
+}
+.right{
+    margin-top: 30px;
 }
