@@ -10,8 +10,7 @@
 .head{
     margin-top: 5px;
     margin: auto;
-    margin-bottom: 20px;
-    margin-left: 40%;
+    margin-left: 45%;
 }
 .main{
     display: flex;
@@ -22,9 +21,18 @@
 }
 .main-header{
     display: flex;
+    justify-content: space-between;
+    margin-right: -16px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    align-items: center;
 }
 .main-header button{
     padding: 5px;
+    border-radius: 5px;
+    margin: 0%;
+}
+.main-header img{
 }
 .rotate{
     width: 20px;
@@ -51,6 +59,7 @@
 .right {
     border: 1px solid black;
     margin: 10px;
+    margin-top: 26px;
     padding: 10px;
 }
 .left{
