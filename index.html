@@ -72,14 +72,15 @@
               src="assets/meme-templates/meme1.png"
               class="mimi"
               alt="mimi"
+              id="output"
             />
           </div>
         </div>
         <div class="right">
-          <label>Select an Image</label>
+          <p><label for="file" style="cursor: pointer;background-color: #fff; border-radius: 3px; padding: 3px;">Upload Image</label></p>
+          <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;">
           <div>
-            <button>Upload New Template</button>
-            <input type="text" />
+           
           </div>
           <div class="main-footer">
             <p>That Would be Great</p>
@@ -154,4 +155,10 @@
   
   </body>
   <script src="./js/script.js"></script>
+  <script>
+    var loadFile = function(event) {
+      var image = document.getElementById('output');
+      image.src = URL.createObjectURL(event.target.files[0]);
+    };
+    </script>
   </html>
