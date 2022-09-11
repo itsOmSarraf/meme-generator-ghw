@@ -29,10 +29,17 @@ imageFileInput.addEventListener("change", (e) => {
   );
 });
 
+/*Generate button*/
 generate.addEventListener('click', () => {
   topText.innerHTML = topTextInput.value;
   bottomText.innerHTML = bottomTextInput.value;
 });
+
+
+
+
+
+
 
 // topTextInput.addEventListener("change", () => {
 //   updateMemeCanvas(canvas, image, topTextInput.value, bottomTextInput.value);
@@ -41,6 +48,8 @@ generate.addEventListener('click', () => {
 // bottomTextInput.addEventListener("change", () => {
 //   updateMemeCanvas(canvas, image, topTextInput.value, bottomTextInput.value);
 // });
+
+
 
 function updateMemeCanvas(canvas, image, topText, bottomText) {
   const ctx = canvas.getContext("2d");

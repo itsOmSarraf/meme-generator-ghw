@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- FontAwesome Links -->
     <link
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
@@ -14,14 +12,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    
-    <!-- Google Fonts Link -->
     <link
       href="https://fonts.googleapis.com/css2?family=Piedra&family=Silkscreen&display=swap"
       rel="stylesheet"
     />
-    
-    <!-- Own CSS Files -->
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/body.css" />
     <link rel="stylesheet" href="styles/mobile.css" />
@@ -88,11 +82,16 @@
             class="mimi"
             id="imageFileInput"
           />
+          <div id="topText" class="topText"></div>
+          <div id="bottomText" class="bottomText"></div>
 
           <!-- <canvas id="meme"></canvas> -->
         </div>
         <div class="right">
           <div class="head1">
+            <p class="upload-inpt">
+              <label for="file" class="file">Upload Image</label>
+            </p>
             <input
               type="file"
               accept="image/*"
@@ -102,9 +101,6 @@
               style="display: none"
             />
             <div>Mimify this</div>
-            <p class="upload-inpt">
-              <label for="file" class="file">Upload Image</label>
-            </p>
           </div>
           <div class="main-footer">
             <!-- <p>That Would be Great</p>
