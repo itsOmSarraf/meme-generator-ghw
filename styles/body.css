@@ -28,6 +28,7 @@
     box-shadow: 28px 17px 38px rgba(0, 0, 0, 0.5);
     margin-top: 90px;
     align-items: center;
+    margin-bottom: 20px;
 }
 .main2{
     display: flex;
@@ -74,8 +75,11 @@
 .left {
     margin-bottom: 10px;
     border-radius: 10px;
+    margin-left: 10px;
 }
-
+.main2{
+    margin-top: 10px;
+}
 .left img{
     border-radius: 20px;
 }
