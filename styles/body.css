@@ -53,6 +53,9 @@
 
 .mimi {
     width: 390px;
+    border: 5px solid;
+    padding: 3px;
+    border-radius: 2px;
 }
 
 .right {
@@ -96,8 +99,13 @@
     width: 340px;
     margin-bottom: 10px;
 }
+]
+p{
+    font-weight: 600;
+}
 
 .footer3 {
+
     display: flex;
     justify-content: space-between;
     width: 355px;
