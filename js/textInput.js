@@ -2,6 +2,10 @@ const imageFileInput = document.querySelector("#imageFileInput");
 const canvas = document.querySelector("#meme");
 const topTextInput = document.querySelector("#topTextInput");
 const bottomTextInput = document.querySelector("#bottomTextInput");
+const generate = document.querySelector('.generate');
+
+const topText = document.getElementById('topText');
+const bottomText = document.getElementById('bottomText');
 
 let image;
 
@@ -25,13 +29,18 @@ imageFileInput.addEventListener("change", (e) => {
   );
 });
 
-topTextInput.addEventListener("change", () => {
-  updateMemeCanvas(canvas, image, topTextInput.value, bottomTextInput.value);
+generate.addEventListener('click', () => {
+  topText.innerHTML = topTextInput.value;
+  bottomText.innerHTML = bottomTextInput.value;
 });
 
-bottomTextInput.addEventListener("change", () => {
-  updateMemeCanvas(canvas, image, topTextInput.value, bottomTextInput.value);
-});
+// topTextInput.addEventListener("change", () => {
+//   updateMemeCanvas(canvas, image, topTextInput.value, bottomTextInput.value);
+// });
+
+// bottomTextInput.addEventListener("change", () => {
+//   updateMemeCanvas(canvas, image, topTextInput.value, bottomTextInput.value);
+// });
 
 function updateMemeCanvas(canvas, image, topText, bottomText) {
   const ctx = canvas.getContext("2d");
