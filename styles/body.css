@@ -17,13 +17,15 @@
 .main {
     display: flex;
     flex-direction: row;
-    width: 810px;
+    width: 850px;
     height: 370px;
     background-color: #2700D6;
     border-radius: 5px;
     margin: auto;
     padding: 20px;
     box-shadow: 28px 17px 38px rgba(0, 0, 0, 0.5);
+    margin-top: 90px;
+    align-items: center;
 }
 
 .rotate {
@@ -99,29 +101,15 @@
     width: 340px;
     margin-bottom: 10px;
 }
-]
 p{
     font-weight: 600;
 }
-
 .footer3 {
-
     display: flex;
     justify-content: space-between;
     width: 355px;
     margin-top: 10px;
 }
-
-.generate {
-    padding: 10px;
-    background-color: aqua;
-}
-
-.reset {
-    padding: 10px;
-    background-color: aqua;
-}
-
 .upload,
 .btn-pop,
 .inputmeme {
@@ -136,4 +124,10 @@ p{
 
 .mimify {
     margin-top: 10px;
+}
+.file{
+    background-color: aqua;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
 }

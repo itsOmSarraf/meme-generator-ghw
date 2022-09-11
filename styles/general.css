@@ -7,6 +7,11 @@ body{
 }
 button{
     cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
+    padding: 10px;
+    font-weight: bold;
 }
 #meme {
     width: 100%;
