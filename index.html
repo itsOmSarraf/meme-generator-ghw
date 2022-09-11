@@ -4,9 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Silkscreen&display=swap" rel="stylesheet">
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Piedra&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/body.css" />
@@ -53,49 +62,64 @@
       <span class="icon icon-bars overlay"></span>
     </div>
 
-      <div class="overlay-menu">
-        <ul id="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-      </div>
-   
+    <div class="overlay-menu">
+      <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
     <>
-      <div class="head">
-        <p>The best Meme Generator you will ever find.Easy to use</p>
-      </div>
-      <div class="main">
-        <div class="main2">
-                  <div class="left">
-            <img
-                src="https://www.memestemplates.com/wp-content/uploads/2022/08/The-Simpsons-hiding-in-bush.jpg"
-              class="mimi"
-              id="imageFileInput"
-            />
-     
-            <!-- <canvas id="meme"></canvas> -->
-            
-          
+    <div class="head">
+      <p>The best Meme Generator you will ever find.Easy to use</p>
+    </div>
+    <div class="main">
+      <div class="main2">
+        <div class="left">
+          <img
+            src="https://www.memestemplates.com/wp-content/uploads/2022/08/The-Simpsons-hiding-in-bush.jpg"
+            class="mimi"
+            id="imageFileInput"
+          />
+
+          <!-- <canvas id="meme"></canvas> -->
         </div>
         <div class="right">
           <div class="head1">
-            <p class="upload-inpt"><label for="file" class="file">Upload Image</label></p>
-          <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;">
-          <div>Mimify this</div>
+            <p class="upload-inpt">
+              <label for="file" class="file">Upload Image</label>
+            </p>
+            <input
+              type="file"
+              accept="image/*"
+              name="image"
+              id="file"
+              onchange="loadFile(event)"
+              style="display: none"
+            />
+            <div>Mimify this</div>
           </div>
           <div class="main-footer">
             <!-- <p>That Would be Great</p>
      -->
           </div>
-          <div class="footer1" >
-            <label style="margin-right:30px;">Top Text</label>
-            <input type="text" style="padding: 10px; font-size: 1.5rem; border-radius: 2px;" id="bottomTextInput">
+          <div class="footer1">
+            <label style="margin-right: 30px">Top Text</label>
+            <input
+              type="text"
+              style="padding: 10px; font-size: 1.5rem; border-radius: 2px"
+              id="bottomTextInput"
+            />
           </div>
           <div class="footer1">
-            <label style="margin-right:5px;">Bottom Text</label>
-            <input type="text" style="padding: 10px; font-size: 1.5rem; border-radius: 2px;" id="bottomTextInput">
+            <label style="margin-right: 5px">Bottom Text</label>
+            <input
+              type="text"
+              style="padding: 10px; font-size: 1.5rem; border-radius: 2px"
+              id="bottomTextInput"
+            />
           </div>
           <!-- <div class="mimis">
             <img src="assets/meme-templates/1.jpg" alt="" />
@@ -134,28 +158,16 @@
             <button class="reset">Reset</button>
           </div>
         </div>
-        </div>
-        <p class="team">Made with ❤ by Team</p>
       </div>
-      <!-- FOOTER -->
-
-      <footer>
-        <div class="footer">
-        <div class="row">
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-reddit"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>        
-        <div class="row">
-        Made with ❤ by Team 
-        </div>
-      </footer>
+      <p class="team">Made with ❤ by Team</p>
+    </div>
   </body>
   <script src="./js/script.js"></script>
 
   <script>
-    var loadFile = function(event) {
-      var image = document.getElementById('imageFileInput');
+    var loadFile = function (event) {
+      var image = document.getElementById("imageFileInput");
       image.src = URL.createObjectURL(event.target.files[0]);
     };
-    </script>
-  </html>
+  </script>
+</html>
