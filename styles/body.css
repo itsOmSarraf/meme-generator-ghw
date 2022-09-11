@@ -81,8 +81,10 @@
     margin-top: 10px;
 }
 .left img{
+    margin-left: 5px;
     border-radius: 20px;
-    
+    width: 400px;
+    height: 300px;
 }
 .main-footer {
     padding: 5px;
