@@ -59,26 +59,25 @@
     background-color: white;
     border: 1px solid black;
 }
-
 .mimi {
     width: 390px;
     border: 5px solid;
     padding: 3px;
     border-radius: 2px;
 }
-
 .right {
     margin: 10px;
     padding: 10px;
 }
-
+.topText,.bottomText{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
 .left {
     margin-bottom: 10px;
     border-radius: 10px;
     margin-left: 10px;
-}
-.main2{
-    margin-top: 10px;
 }
 .left img{
     margin-left: 5px;
@@ -93,7 +92,6 @@
     width: 355px;
 
 }
-
 .footer1 {
     display: flex;
     height: 20px;
