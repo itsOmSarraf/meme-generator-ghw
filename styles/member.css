@@ -1,12 +1,14 @@
 body {
-    /* display: grid; */
     background-color: hsl(206, 40%, 90%);
 
     box-sizing: border-box;
     margin: 10rem 1rem 1rem 1rem;
-    /* overflow: hidden; */
 }
-h1 {
+.headline {
+    font-size: xx-large;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
     position: absolute;
     top: 3%;
     left: 50%;
@@ -21,7 +23,7 @@ h1 {
     margin: auto;
 }
 .profile {
-    max-width: 19rem;
+    max-width: 20rem;
 
     background-color: white;
     box-shadow: 2px 1px 8px gray;
@@ -31,9 +33,12 @@ h1 {
     margin: auto;
 }
 .image {
+    background-color: rgba(255, 114, 44, 0.967);
     width: 15rem;
     padding: 8px;
     border-radius: 50%;
+
+    margin: 1rem;
 }
 .social-links {
     display: flex;
@@ -89,6 +94,7 @@ h1 {
         word-wrap: break-word;
     }
 }
+
 .seperation {
     margin: 2rem;
 }
