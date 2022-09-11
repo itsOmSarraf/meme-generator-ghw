@@ -1,14 +1,16 @@
-const expand = document.querySelector('.expand');
-const bio = document.querySelector('.bio');
+const expand = document.querySelector('.aboutUs');
+const bio = document.querySelectorAll('.bio');
 
 expand.addEventListener('click', () => {
     console.log('hello')
-    const content = bio.getAttribute("data-expand");
+    for (let i=0; i<=bio.length; ++i) {
+        const content = bio[i].getAttribute("data-expand");
 
-    if (content == "false"){
-        bio.setAttribute('data-expand', true);
-    }
-    else {
-        bio.setAttribute('data-expand', false);
+        if (content == "false"){
+            bio[i].setAttribute('data-expand', true);
+        }
+        else {
+            bio[i].setAttribute('data-expand', false);
+        }
     }
 });
