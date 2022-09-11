@@ -1,5 +1,5 @@
 const expand = document.querySelector('.expand');
-const bio = document.querySelectorAll('.bio');
+const bio = document.querySelector('.bio');
 
 expand.addEventListener('click', () => {
     console.log('hello')
