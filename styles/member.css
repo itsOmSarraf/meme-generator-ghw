@@ -39,6 +39,7 @@ body {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
 }
 .headline {
+    color: rgb(112, 110, 110);
     font-size: xx-large;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -84,6 +85,7 @@ body {
     width: 2.5rem;
 }
 .name {
+    color: black;
     font-size: x-large;
 
     margin: .5rem;
