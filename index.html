@@ -32,7 +32,7 @@
       type="image/x-icon"
       href="assets/shiba-meme-11563362644cvalx0ytns.png"
     />
-    <script src="./js/textInput.js"></script>
+    <script src="./js/textInput.js" defer></script>
     <title>Meme Generator</title>
   </head>
   <body>
@@ -115,7 +115,7 @@
             <input
               type="text"
               style="padding: 10px; font-size: 1.5rem; border-radius: 2px"
-              id="bottomTextInput"
+              id="topTextInput"
             />
           </div>
           <div class="footer1">
@@ -159,7 +159,7 @@
             <label for="vehicle2"> Remove watermark</label><br />
           </div>
           <div class="footer3">
-            <button class="generate">Generate Meme</button>
+            <button id="generate" class="generate">Generate Meme</button>
             <button class="reset">Reset</button>
           </div>
         </div>
