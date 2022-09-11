@@ -3,6 +3,7 @@
         height: 610px;
         width: 420px;
         margin-left: 10px;
+        margin-right: 10px;
     }
     .main2{
         display: flex;
