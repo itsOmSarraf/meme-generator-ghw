@@ -82,12 +82,14 @@
 }
 .left img{
     border-radius: 20px;
+    
 }
 .main-footer {
     padding: 5px;
     display: flex;
     justify-content: space-between;
     width: 355px;
+
 }
 
 .footer1 {
