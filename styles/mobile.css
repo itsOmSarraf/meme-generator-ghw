@@ -13,10 +13,11 @@
         margin: 0%;
     }
     .left img {
-        margin-left: 5px;
-        border-radius: 20px;
+        margin: 0;
+        border-radius: 35px;
         width: 350px;
         height: 250px;
+        object-fit: cover;
     }
     .right{
         margin: 10px;
