@@ -4,19 +4,19 @@
     margin: 0;
     padding: 0;
   }
-  
+
   body {
     font-family: Lato, Helvetica, Arial, sans-serif;
   }
-  
+
   a {
     color: inherit;
     font-family: inherit;
     font-size: inherit;
     text-decoration: none;
   }
-  
-  
+
+
   /*======================================================
                             Navbar
     ======================================================*/
@@ -29,10 +29,10 @@
     height: 60px;
     line-height: 60px;
     width: 100vw;
-    z-index: 10;
+    z-index: 1000;
     border-bottom: 1px solid black;
   }
-  
+
   .nav-wrapper {
     margin: auto;
     text-align: center;
@@ -45,9 +45,9 @@
         .nav-wrapper {
           width: 100%;
         }
-      } 
-  
-  
+      }
+
+
   .logo {
     float: left;
     margin-left: 28px;
@@ -59,7 +59,7 @@
   } @media(max-width: 768px) {
 
     }
-  
+
   #navbar ul {
     display: inline-block;
     float: right;
@@ -79,11 +79,11 @@
           display: inline-block;
         }
       }
-  
+
   #navbar li {
     display: inline-block;
   }
-  
+
   #navbar li a {
     color: rgb(0, 0, 0);
     display: block;
@@ -99,14 +99,14 @@
     -webkit-transition: all 0.5s ease;
     font-family: 'Silkscreen', cursive;
   }
-  
+
   #navbar li a:hover {
     /* border-bottom: 1px solid rgb(28, 121, 184); */
     color: rgb(86, 48, 255);
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
   }
-  
+
   /* Animated Bottom Line */
   #navbar li a:before, #navbar li a:after {
     content: '';
@@ -116,30 +116,30 @@
     bottom: -1px;
     background: rgb(13, 26, 38);
   }
-  
+
   #navbar li a:before {
     left: 0;
     transition: 0.5s;
   }
-  
+
   #navbar li a:after {
     background: rgb(13, 26, 38);
     right: 0;
     /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
   }
-  
+
   #navbar li a:hover:before {
     background: rgb(13, 26, 38);
     width: 100%;
     transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
   }
-  
+
   #navbar li a:hover:after {
     background: transparent;
     width: 100%;
     /* transition: 0s; */
   }
-  
+
   /*======================================================
                       Mobile Menu Menu Icon
     ======================================================*/
@@ -154,7 +154,7 @@
       width: 27px;
       z-index: 12;
     }
-  
+
     /* Icon Bars */
     .icon-bars {
       background: rgb(13, 26, 38);
@@ -165,8 +165,8 @@
       width: 20px;
       -webkit-transition: 0.4s;
       transition: 0.4s;
-    } 
-  
+    }
+
     .icon-bars::before {
       background: rgb(13, 26, 38);
       content: '';
@@ -180,7 +180,7 @@
       -webkit-transition: 0.3s width 0.4s;
       transition: 0.3s width 0.4s;
     }
-  
+
     .icon-bars::after {
       margin-top: 0px;
       background: rgb(13, 26, 38);
@@ -195,7 +195,7 @@
       -webkit-transition: 0.3s width 0.4s;
       transition: 0.3s width 0.4s;
     }
-  
+
     /* Bars Shadows */
     .icon-bars.overlay {
       background: rgb(97, 114, 129);
@@ -212,7 +212,7 @@
           50% {width: 20px}
           100% {width: 0px}
         }
-  
+
     .icon-bars.overlay::before {
       background: rgb(97, 114, 129);
       background: rgb(183, 199, 211);
@@ -228,7 +228,7 @@
           50% {width: 10px}
           100% {width: 0px}
         }
-  
+
     .icon-bars.overlay::after {
       background: rgb(97, 114, 129);
       background: rgb(183, 199, 211);
@@ -244,8 +244,8 @@
           50% {width: 15px}
           100% {width: 0px}
         }
-  
-  
+
+
     /* Toggle Menu Icon */
     .menuIcon.toggle .icon-bars {
       top: 5px;
@@ -253,20 +253,20 @@
       transition-delay: 0.1s;
       transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
-  
+
     .menuIcon.toggle .icon-bars::before {
       top: 0;
       transition-delay: 0.1s;
       opacity: 0;
     }
-  
+
     .menuIcon.toggle .icon-bars::after {
       top: 10px;
       transform: translate3d(0, -10px, 0) rotate(-270deg);
       transition-delay: 0.1s;
       transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
-  
+
     .menuIcon.toggle .icon-bars.overlay {
       width: 20px;
       opacity: 0;
@@ -274,10 +274,10 @@
       transition: all 0s ease 0s;
     }
   }
-  
-  
+
+
   /*======================================================
-                     Responsive Mobile Menu 
+                     Responsive Mobile Menu
     ======================================================*/
   .overlay-menu {
     background: rgb(0, 0, 0);
@@ -295,13 +295,15 @@
     -webkit-transition: transform 0.2s ease-out;
     transition: transform 0.2s ease-out;
     font-family: 'Silkscreen', cursive;
+
+    z-index: 100;
   }
-  
+
   .overlay-menu ul, .overlay-menu li {
     display: block;
     position: relative;
   }
-  
+
   .overlay-menu li a {
     display: block;
     font-size: 1.8em;
@@ -315,7 +317,7 @@
   /*   -webkit-transition: 0.2s opacity 0.2s ease-out;
     transition: 0.2s opacity 0.2s ease-out; */
   }
-  
+
   .overlay-menu li a:hover,
   .overlay-menu li a:active {
     color: rgb(28, 121, 184);
