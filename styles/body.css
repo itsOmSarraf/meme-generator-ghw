@@ -87,10 +87,12 @@
     margin-left: 10px;
 }
 .left img{
-    margin-left: 5px;
-    border-radius: 20px;
+    margin-left: 15px;
+    border-radius: 35px;
     width: 400px;
     height: 300px;
+    object-fit: cover;
+
 }
 .main-footer {
     padding: 5px;
